@@ -1,0 +1,54 @@
+.wrapper {
+  width: 370px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .input-data {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.input-data {
+  display: flex;
+}
+
+.wrapper .input-data .input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid silver;
+  font-style: italic;
+  background: transparent;
+}
+
+footer {
+    background-color: black;
+    height: 100vh;
+}
+
+.footerYDiv nav ul {
+    display: flex;
+    gap: 8rem;
+}
+
+.footerYDiv nav ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerYDiv {
+    margin-top: 170px;
+}
+/* 
+.footerADiv {
+    margin-top: 400px;
+    margin-right: 200px;
+} */
