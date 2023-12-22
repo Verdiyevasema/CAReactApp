@@ -1,0 +1,23 @@
+.primary-btn {
+  background-color: aqua;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.6s;
+  border: 1px solid transparent;
+
+  &.bg-red {
+    background-color: red;
+    &:hover {
+      color: blue;
+      border: 1px solid red;
+    }
+  }
+  &:hover {
+    background-color: transparent;
+    color: blue;
+    border: 1px solid teal;
+  }
+}

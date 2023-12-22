@@ -1,0 +1,21 @@
+.table-section {
+  display: flex;
+  justify-content: center;
+
+  table {
+    // border-collapse: collapse;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    thead {
+      th {
+        padding: 0.5rem 1rem;
+      }
+    }
+    tbody {
+      td {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}
