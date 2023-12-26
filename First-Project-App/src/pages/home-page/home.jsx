@@ -2,21 +2,21 @@ import "./home.css";
 
 function Home() {
   return (
-    <section class="homeSection">
+    <section className="homeSection">
       <div className="container">
-        <div class="about">
-          <div class="aboutText">
-            <h2 class="abouth2">ELECTRICAL SERVICE PROVIDERS</h2>
+        <div className="about">
+          <div className="aboutText">
+            <h2 className="abouth2">ELECTRICAL SERVICE PROVIDERS</h2>
             <br />
-            <p class="aboutp">
+            <p className="aboutp">
               Lorem ipsum dolor sit amet, pri autem nemore <br />
               bonorum te. Autem fierent ullamcorper ius no. Te tibique <br />
               intellegam mediocritatem his, est quis.
             </p>
             <br />
-            <button class="contactBtn">Contact Us</button>
+            <button className="contactBtn">Contact Us</button>
           </div>
-          <div class="aboutImg">
+          <div className="aboutImg">
             <img
               src="https://media.monster.co.th/career-advice/wp-content/uploads/2021/11/web-developer-interview-questions-and-answers.jpg"
               alt=""

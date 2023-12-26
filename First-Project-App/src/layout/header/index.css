@@ -45,3 +45,8 @@ header {
   color: black;
   transition: all 0.3ms;
 }
+
+.header nav ul li a.active {
+  text-decoration: underline;
+  color: white;
+}

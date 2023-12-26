@@ -1,4 +1,5 @@
 import "./index.css";
+import { NavLink } from "react-router-dom"
 
 function Header() {
   return (
@@ -9,27 +10,19 @@ function Header() {
           <nav>
             <ul>
               <li>
-                <a href="Home">HOME</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a href="About">ABOUT</a>
+                <NavLink to = "/about">About</NavLink>
               </li>
               <li>
-                <a href="Service">SERVICE</a>
-              </li>
-              <li>
-                <a href="Service">BLOG</a>
-              </li>
-              <li>
-                <a href="Service">CONTACT</a>
+                <NavLink to = "/products">Products</NavLink>
               </li>
             </ul>
           </nav>
         </div>
       </div>
-      <hr />
     </header>
-
   );
 }
 

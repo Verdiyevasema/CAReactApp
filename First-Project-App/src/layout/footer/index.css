@@ -46,9 +46,8 @@ footer {
 
 .footerYDiv {
     margin-top: 170px;
+    margin-bottom: 30px;
 }
-/* 
-.footerADiv {
-    margin-top: 400px;
-    margin-right: 200px;
-} */
+.footerYDiv nav ul li {
+  margin-bottom: 50px;
+}

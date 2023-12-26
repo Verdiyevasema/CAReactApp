@@ -21,10 +21,9 @@ function Footer() {
           </div>
 
           <div className="footerADiv">
-            <div class="wrapper">
-              <div class="input-data">
-                <input type="email" class="input" placeholder="Enter your email" />
-                <label for=""></label>
+            <div className="wrapper">
+              <div className="input-data">
+                <input type="email" className="input" placeholder="Enter your email" />
                 <button>SUBSCRIBE</button>
               </div>
             </div>
